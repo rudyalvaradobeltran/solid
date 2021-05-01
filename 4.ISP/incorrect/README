@@ -1,0 +1,5 @@
+Ejemplo incorrecto ISP. Ninguna clase debe implementar métodos que no usa. BankTransfer
+no utilizará tarjeta de crédito ni efectivo, American Express y Visa no utilizarán 
+transacción bancaria ni efectivo, y Cash no utilizará transacción bancaria ni tarjeta 
+de crédito. Para cumplir con este principio se deberá separar la interfaz de propósito
+general en interfaces específicas para cada tipo de pago.

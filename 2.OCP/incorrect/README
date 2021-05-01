@@ -1,0 +1,6 @@
+Ejemplo incorrecto OCP. Para este caso se debe poder extender el comportamiento de la clase 
+DiscountManager pero sin modificarla. En otras palabras, la clase debe estar abierta a
+recibir cualquier tipo de descuento, pero sin aplicar cada uno como un método dentro de ella.
+Para esto se define una interfaz o clase abstracta, que en este caso defina el descuento, 
+y esta se hereda en cada tipo de descuento. Así cada vez que tengamos que agregar un nuevo 
+tipo de descuento evitaremos modificar la clase DiscountManager y complejizar su uso.

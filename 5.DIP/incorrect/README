@@ -1,0 +1,5 @@
+Ejemplo incorrecto DIP. Las clases de alto nivel no deben depender de las clases de bajo
+nivel. Cualquier cambio realizado en UserRepository afectará directamente a un módulo de
+nivel más alto como lo es UserManager. Se aplica abstracción con una interfaz intermedia
+(UserRepository) de la cual van a depender la clase UserManager y una nueva llamada
+LocalUserRepository instanciada a su vez por una factory class UserFactory.

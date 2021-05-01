@@ -1,0 +1,6 @@
+Ejemplo incorrecto SRP. Si se solicitaran agregar nuevas funcionalidades asociadas con 
+jugadores, se seguiría llenando la clase Player con nuevos métodos, complejizando cada 
+vez más el uso de la clase. En este ejemplo a pesar de que todos los métodos están 
+relacionados con la clase Player, los métodos showPlayerHD y showPlayerHQ no tienen 
+cohesión con los métodos savePlayer, deletePlayer ni con los de estadísticas.
+Se debe separar: capa de persistencia, capa de lógica de negocio y capa de presentación.
