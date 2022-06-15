@@ -1,5 +1,5 @@
 Ejemplo incorrecto LSP. En este caso las clases AustraliaOpenCourt y RolandGarrosCourt
-que realizan override del método cutClass, al no ser del mismo tipo que la clase padre
+que realizan override del método cutGrass, al no ser del mismo tipo que la clase padre
 (Court) podrían provocar un comportamiento no deseado en el método utilizado, en este
 caso ejemplificado con un error. Para esto se crean las interfaces ClayCourt, GrassCourt 
 y HardCourt para separar la clase Court, y se mueve la clase cutClass solamente a la clase
